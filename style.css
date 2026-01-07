@@ -1,6 +1,6 @@
 :root {
     --bg_col: rgb(13, 17, 23);
-    --card_top_col: rgb(55, 97, 161);
+    --card_top_col: rgb(68, 121, 201);
     --card_bottom_col: rgb(22, 27, 34);
 
     --text_col: rgb(230, 233, 240);
@@ -53,12 +53,14 @@ body
 
 .im
 {
+    transition: all 0.2s ease-out;
     width: 100px;
     height: 100px;
 }
 
 .pfp-box
 {
+    transition: all 0.2s ease-out;
     width: 100px;
     height: 100px;
     position: relative;
