@@ -123,12 +123,12 @@ body
 .github-icon
 {
     transition: all 0.2s ease-out;
-    height: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     fill: var(--gh_fill);
     opacity: 0.9;
+    border-radius: 100%;
 }
 
 .github-icon:hover
