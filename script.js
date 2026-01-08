@@ -30,6 +30,7 @@ let isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: 
 
 if(!isDarkMode)
 {
+    checkbox.checked = true;
     root.style.setProperty("--bg_col", light_mode.bg_col);
     root.style.setProperty("--card_top_col", light_mode.card_top_col);
     root.style.setProperty("--card_bottom_col", light_mode.card_bottom_col);
