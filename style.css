@@ -14,7 +14,7 @@
 #A
 {
     width: 100vw;
-    height: 100vh;
+    height: 96vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,4 +147,17 @@ h3
 {
     width: 20px;
     height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #A
+    {
+        width: 100vw;
+        height: 89vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
 }
