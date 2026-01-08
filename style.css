@@ -51,6 +51,11 @@ body
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
+h3
+{
+    margin-bottom: 5rem;
+}
+
 .im
 {
     transition: all 0.2s ease-out;
